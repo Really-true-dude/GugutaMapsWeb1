@@ -28,23 +28,13 @@ header {
     background-color: #016A70;
 }
 
-#info {
-    padding-left: 10px;
-    border-radius: 10px;
-    position: absolute;
-    user-select: none;
-    font-size: 2em;
-    width: 120px;
-    color: #EEEEEE;
-    background-color: #FD7013;
-}
-
 .curRegion {
     position: fixed;
     left: 0;
     right: 0;
     background-color: #191818;
     max-width: 100px;
+    border-radius: 4px;
     color: #fff;
     display: none;
     text-align: center;
