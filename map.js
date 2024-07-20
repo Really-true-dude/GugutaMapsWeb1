@@ -13,3 +13,14 @@ function removeRegInfo() {
     let box =  document.getElementsByClassName("curRegion")[0];
     box.style.display = "none";
 }
+
+function showReg(region) {
+    // Clear past headers
+    headers = document.getElementById("regionHeader").children;
+    console.log(headers);
+    for( let i = 0; i < headers.length; ++i)
+        headers[i].style.display = "none";
+    regName = region.getAttribute("name");
+    document.getElementById(regName).style.display = "block";
+
+}
