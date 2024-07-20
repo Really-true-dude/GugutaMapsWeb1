@@ -101,7 +101,36 @@ svg path:hover{
 .filler {
     display: none;
 }
+/*Button*/
+.arrowButton {
+    display: inline-flex;
+    align-items: end;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    color: #000;
+    transition: background-color 0.3s, transform 0.3s;
+}
 
+
+.arrowButton:hover {
+    background-color: #016A70;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+.arrowButton:active {
+    background-color: #014f58;
+    transform: scale(1);
+}
 
 /* Foot */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
@@ -114,7 +143,7 @@ svg path:hover{
 }
 
 .footer {
-    margin-top: 100px;
+    margin-top: 500px;
     background-color: #333;
     position: relative;
     width: 100%;
