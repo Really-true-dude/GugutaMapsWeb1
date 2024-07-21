@@ -40,7 +40,7 @@
 .wrapper.open {
     width: 330px;
     height: 330px;
-    translate transition: transform 375ms, width 375ms, height 275ms 100ms;
+    transition: transform 375ms, width 375ms, height 275ms 100ms;
 }
 
 .wrapper div.content {
