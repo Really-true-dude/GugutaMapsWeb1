@@ -1,6 +1,6 @@
-body {
-    background: url(http://www.magic4walls.com/wp-content/uploads/2014/05/minimalist-picture-bridge-river-dreaming-art-picture-landscape-sky.jpg)no-repeat;
-}
+/*body {*/
+/*    background: url(http://www.magic4walls.com/wp-content/uploads/2014/05/minimalist-picture-bridge-river-dreaming-art-picture-landscape-sky.jpg)no-repeat;*/
+/*}*/
 
 .container {
     /*margin-left: 50%;*/
@@ -19,13 +19,13 @@ body {
 .parent {
     position: relative;
     width: 109px;
-    height: 109px;
+    height: 100px;
     margin: 0 auto;
 }
 
 .wrapper {
     width: 109px;
-    height: 109px;
+    height: 100px;
     cursor: pointer;
     position: absolute;
     overflow: hidden;

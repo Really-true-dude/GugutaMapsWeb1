@@ -103,6 +103,7 @@ svg path:hover{
 }
 /*Button*/
 .arrowButton {
+    text-decoration: none;
     display: inline-flex;
     align-items: end;
     justify-content: center;
@@ -136,10 +137,10 @@ svg path:hover{
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer {
@@ -159,43 +160,43 @@ svg path:hover{
 
 .social-icon,
 .menu {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
 }
 
 .social-icon__item,
 .menu__item {
-  list-style: none;
+    list-style: none;
 }
 
 .social-icon__link {
-  font-size: 2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
 }
 .social-icon__link:hover {
-  transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .menu__link {
-  font-size: 1.2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-  text-decoration: none;
-  opacity: 0.75;
-  font-weight: 300;
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
 }
 
 .menu__link:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .footer p {
@@ -231,4 +232,113 @@ svg path:hover{
     .contactData {
         margin: 0;
     }
+}
+
+.discLandmarks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filler{
+    text-align: center;
+
+}
+.landMarks{
+    display: flex;
+    flex-direction: row;
+}
+.landMarkBox{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.arrowButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    color: #000;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+.arrowButton:hover {
+    background-color: #016A70;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+.arrowButton:active {
+    background-color: #014f58;
+    transform: scale(1);
+}
+
+.showReviews {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    color: #000;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+
+.showReviews:hover {
+    background-color: #016A70;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.showReviews:active {
+    background-color: #014f58;
+    transform: scale(1);
+}
+.landMarkButtons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.img img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.text{
+
 }
