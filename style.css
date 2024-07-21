@@ -25,6 +25,9 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #016A70;
 }
 
@@ -41,8 +44,7 @@ header {
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     text-align: center;
     text-align: center;
     /* color: #D2DE32; */
@@ -93,7 +95,7 @@ svg path{
 
 svg path:hover{
     /* fill: #2bc408; */
-    fill: #358f3c;
+    fill: #005459;
     transition: 0.6s;
     cursor: pointer;
 }
